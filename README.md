@@ -26,15 +26,11 @@ Para utilizar los scripts, simplemente sigue estos pasos:
 
 1. **Clona el repositorio**:
     ```bash
-    git clone https://github.com/tuusuario/tu-repositorio.git
+    git clone https://github.com/jooonw2/Integracionvirustotalwazuh
     ```
-2. **Navega al directorio del repositorio**:
+2. **Ejecuta el script de configuración**:
     ```bash
-    cd tu-repositorio
-    ```
-3. **Ejecuta el script de configuración**:
-    ```bash
-    ./configuracion_wazuh_virustotal.sh
+    ./integracionvirustotalwazuh.sh
     ```
 4. **Sigue las instrucciones**: El script te guiará a través del proceso de configuración, incluyendo la solicitud de tu API key de VirusTotal y cualquier otra información necesaria.
 
