@@ -10,17 +10,10 @@ La integración de Wazuh con VirusTotal permite que Wazuh envíe automáticament
 
 ## Scripts de Configuración de Clientes
 
-Para facilitar la configuración de esta integración en los clientes, he desarrollado una serie de scripts automatizados que simplifican el proceso de configuración. Estos scripts realizan las siguientes tareas:
-
-1. **Instalación de Dependencias**: Instalan todas las dependencias necesarias para que la integración funcione correctamente, incluyendo paquetes de Python y configuraciones de sistema.
-   
-2. **Configuración de Wazuh**: Modifican los archivos de configuración de Wazuh para habilitar la integración con VirusTotal, incluyendo la inserción de la API key de VirusTotal y la configuración de las reglas de análisis.
-
-3. **Automatización del Proceso**: Automatizan el proceso de registro y verificación, asegurando que la integración se configure de manera consistente y sin errores.
-
-4. **Actualización de Configuraciones**: Permiten actualizar de manera sencilla las configuraciones y mantener la integración al día con las mejores prácticas de seguridad.
+Para facilitar la configuración de esta integración en los clientes, he desarrollado una serie de scripts automatizados que simplifican el proceso de configuración. 
 
 ## Uso de los Scripts
+### Ubuntu
 
 Para utilizar los scripts, simplemente sigue estos pasos:
 
@@ -32,8 +25,7 @@ Para utilizar los scripts, simplemente sigue estos pasos:
     ```bash
     ./integracionvirustotalwazuh.sh
     ```
-4. **Sigue las instrucciones**: El script te guiará a través del proceso de configuración, incluyendo la solicitud de tu API key de VirusTotal y cualquier otra información necesaria.
-
+### Windows
 ## Contribuciones
 
 Las contribuciones son bienvenidas. Si tienes sugerencias, encuentras errores o deseas añadir nuevas funcionalidades, por favor abre un issue o un pull request en el repositorio.
