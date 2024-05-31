@@ -24,7 +24,7 @@ Para utilizar los scripts, simplemente sigue estos pasos:
     ```
 ### Windows
 ## Requisitos previos
-No se requieron requisitos previos ni en Ubuntu ni en Windows mas que tener instalado wazuh.
+No se requieron requisitos previos ni en Ubuntu ni en Windows mas que tener instalado wazuh cliente y en el servidor tener configurado el modulo de virustotal en wazuh.
 ## Contribuciones
 
 Las contribuciones son bienvenidas. Si tienes sugerencias, encuentras errores o deseas añadir nuevas funcionalidades, por favor abre un issue o un pull request en el repositorio.
