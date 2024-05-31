@@ -5,9 +5,9 @@ La integración de Wazuh con VirusTotal permite que Wazuh envíe automáticament
 ## Conteido del repositorio
 
 Para facilitar la configuración de esta integración en los clientes, he desarrollado una serie de scripts automatizados que simplifican el proceso de configuración. 
+- **integracionvirustotalwazuh.sh**: Archivo que instala los requisitos que se necista y coloca el archivo remove-trash.sh en la carpeta adecuada con los permisos adecuados.
+- **remove-trash.sh**: Archivo de configuración de virustotal que es el encargado de detectar los archvivos maliciosos
 - **InstAgentWin.bat**:
-- **InstAgentWin.bat**:
-- - **InstAgentWin.bat**:
 
 ## Instrucciones de uso
 ### Ubuntu
