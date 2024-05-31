@@ -1,4 +1,4 @@
-# Integración de Wazuh con VirusTotal para borrado de archvios maliciosos
+# Integración de Wazuh con VirusTotal para borrado de archivos maliciosos
 
 La integración de Wazuh con VirusTotal permite que Wazuh envíe automáticamente archivos y hashes de archivos a VirusTotal para su análisis. Esto añade una capa adicional de seguridad al permitir que las amenazas potenciales sean verificadas contra una base de datos extensa y constantemente actualizada de firmas de malware. La información obtenida de VirusTotal puede ser utilizada por Wazuh para generar alertas, informes y tomar medidas automáticas basadas en los resultados del análisis. Con esta configuración cuando detecte un archivo maliciosos nos lo borrara.
 
