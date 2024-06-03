@@ -5,9 +5,10 @@ La integración de Wazuh con VirusTotal permite que Wazuh envíe automáticament
 ## Conteido del repositorio
 
 Para facilitar la configuración de esta integración en los clientes, he desarrollado una serie de scripts automatizados que simplifican el proceso de configuración. 
-- **integracionvirustotalwazuh.sh**: Archivo que instala los requisitos que se necista y coloca el archivo remove-trash.sh en la carpeta adecuada con los permisos adecuados.
-- **remove-trash.sh**: Archivo de configuración de virustotal que es el encargado de detectar los archvivos maliciosos
-
+- **integracionvirustotalwazuh.sh**: Archivo que instala los requisitos que se necesita y coloca el archivo remove-trash.sh en la carpeta adecuada con los permisos adecuados en Linux.
+- **remove-trash.sh**: Archivo de configuración de virustotal que es el encargado de detectar los archvivos maliciosos en Linux.
+- **integracionvirustotalwazuh.bat**: Archivo que instala los requisitos que se necista y coloca el archivo remove-trash.py en la carpeta adecuada con los permisos adecuados en Windows
+- **remove-trash.py**: Archivo de configuración de virustotal que es el encargado de detectar los archvivos maliciosos en Windows.
 ## Instrucciones de uso
 ### Ubuntu
 
@@ -22,13 +23,14 @@ Para utilizar los scripts, simplemente sigue estos pasos:
     ./integracionvirustotalwazuh.sh
     ```
 ### Windows
+
 1. **Clona el repositorio**:
     ```bash
-    wget https://github.com/jooonw2/Integracionvirustotalwazuh
+    Invoke-WebRequest -Uri "https://github.com/jooonw2/Integracionvirustotalwazuh.git" -OutFile "Integracionvirustotalwazuh"
     ```
 2. **Ejecuta el script de configuración**:
     ```bash
-    ./integracionvirustotalwazuh.sh
+    ./integracionvirustotalwazuh.bat
     ```
 ## Requisitos previos
 No se requieron requisitos previos ni en Ubuntu ni en Windows mas que tener instalado wazuh cliente y en el servidor tener configurado el modulo de virustotal en wazuh.
