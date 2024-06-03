@@ -22,6 +22,14 @@ Para utilizar los scripts, simplemente sigue estos pasos:
     ./integracionvirustotalwazuh.sh
     ```
 ### Windows
+1. **Clona el repositorio**:
+    ```bash
+    wget https://github.com/jooonw2/Integracionvirustotalwazuh
+    ```
+2. **Ejecuta el script de configuración**:
+    ```bash
+    ./integracionvirustotalwazuh.sh
+    ```
 ## Requisitos previos
 No se requieron requisitos previos ni en Ubuntu ni en Windows mas que tener instalado wazuh cliente y en el servidor tener configurado el modulo de virustotal en wazuh.
 ## Contribuciones
