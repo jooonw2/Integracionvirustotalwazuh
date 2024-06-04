@@ -1,0 +1,26 @@
+---
+- name: Configurar Wazuh
+  hosts: all
+  become: yes
+  tasks:
+    - name: Actualizar la lista de paquetes
+      apt:
+        update_cache: yes
+
+    - name: Instalar jq
+      apt:
+        name: jq
+        state: present
+
+    - name: Copiar remove-threat.sh al directorio deseado
+      copy:
+        src: /home/usuario/remove-threat.sh
+        dest: /var/ossec/active-response/bin/remove-threat.sh
+        owner: root
+        group: wazuh
+        mode: '0750'
+
+    - name: Reiniciar el servicio wazuh agent
+      service:
+        name: wazuh-agent
+        state: restarted
