@@ -22,6 +22,18 @@ Para utilizar los scripts, simplemente sigue estos pasos:
     ```bash
     ./integracionvirustotalwazuh.sh
     ```
+### Ubuntu con ansible
+He creado tambien otra manera de implementarlo con Ansible
+1. **Clona el repositorio**:
+    ```bash
+    git clone https://github.com/jooonw2/Integracionvirustotalwazuh
+    ```
+2. **Mover paylook**:
+    Mover paylook a la caarpeta /etc/ansible/
+2. **Ejecuta el script de configuración**:
+    ```bash
+    ./virustotalplaybook.sh
+    ```
 ### Windows
 
 1. **Clona el repositorio**:
